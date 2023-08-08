@@ -6,6 +6,7 @@ This repository offers a submission guidance for the [ICCV 2023 HANDS challenge 
 You can find test images and files (including image path, bbox): \
 [[test images]](https://drive.google.com/drive/folders/1Vsh4V_7JLyycP8c13_RVPpXhmlQaJhdD?usp=sharing) \
 [[test files]](https://drive.google.com/drive/folders/1hqqh5ZnbLdDEbXZS_jv4iAVfkQPguLMA?usp=drive_link) \
+Please place the `template/` folder under this directory. \
 Note: the image size of `nusar-2021_action_both_9061-c13d_9061_user_id_2021-02-09_143830` is realatively smaller than others due to a headset malfunction that stopped the image export midway.
 
 ## Evaluation details
