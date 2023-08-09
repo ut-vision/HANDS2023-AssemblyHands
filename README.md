@@ -24,7 +24,9 @@ The script `challenge_submit.py` creates your own prediction file in the json fo
 Please custom the `get_pred(.)` function to register in your results.
 By default, the script sets the prediction as zero and saves them to `assemblyhands_test_joint_3d_iccv23_pred.json`.
 
-
-# References
+## References
 - [AssemblyHands Toolkit](https://github.com/facebookresearch/assemblyhands-toolkit)
 - [ICCV 2023 HANDS Workshop](https://sites.google.com/view/hands2023/home)
+
+## Acknowledgment
+We thank Dr. Linlin Yang, Prof. Angela Yao (NUS), Dr. Kun He (Meta), and Prof. Yoichi Sato (UTokyo) for helpful discussions on the design of the challenge. This dataset is based on the internship work at Meta Reality Labs, and thanks go to Dr. Fadime Sener, Dr. Tomas Hodan, Dr. Luan Tran, and Dr. Cem Keskin (Meta). We also thank Mr. Nie Lin (UTokyo) for the baseline construction. 
