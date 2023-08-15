@@ -30,7 +30,7 @@ You can find multi-view images with the same frame name but with different camer
 
 In addtion, you can test the generated two-hand format by the [visualizer](https://github.com/facebookresearch/assemblyhands-toolkit#visualization) in the toolkit.
 
-## Submission intruction
+## Submission instruction
 The script `challenge_submit.py` will create your own json file using the template file.
 Please custom the `get_pred(.)` function to register in your results.
 By default, the function fills in zeros and saves them to `assemblyhands_test_joint_3d_iccv23_pred.json`.
