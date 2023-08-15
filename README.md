@@ -21,10 +21,12 @@ The frame indices in the template file are less than those in the test image fol
 Before submission, please make sure the following notes:
 - Two-hand format (42 keypoints are defined for each frame)
 - Frame indices match the template json
-- Leave the prediction blank if the hand bbox is not provided in the data file
+- Leave the prediction blank (fill in 0s) if the hand bbox is not provided in the data file
 
 Since the headset has multiple cameras, you may have muliple predictions in the same scene.
 You can postprocess to merge them (e.g., ensemble) and provide a two-hand pose format every frame.
+The image file name (e.g., "000554.jpg") is defined identically across multi-cameras (id: HMC*).
+You can find multi-view images with the same frame name but with different camera names.
 
 In addtion, you can test the generated two-hand format by the [visualizer](https://github.com/facebookresearch/assemblyhands-toolkit#visualization) in the toolkit.
 
